@@ -1,7 +1,7 @@
 function value = rho0_func(x)
 
 % Example 1
-% value = (4 * x) .* (x < 0.5) + (4 * (1 - x)) .* (x >= 0.5);
+value = (4 * x) .* (x < 0.5) + (4 * (1 - x)) .* (x >= 0.5);
 
 % Example 2
 % value = (2*x+1)/2;
@@ -10,6 +10,6 @@ function value = rho0_func(x)
 % value = (1/2)*ones(size(x));
 
 % Example 4
-value = normpdf(x, 0, 1);
+% value = normpdf(x, 0, 1);
 
 end
