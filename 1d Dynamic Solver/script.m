@@ -1,5 +1,4 @@
-clear; clc;
-Nt_list = [2; 4; 8]; N_list = [2; 4; 8; 16; 32; 64; 128];
+clear; clc; Nt_list = [2; 4; 8]; N_list = [2; 4; 8; 16; 32; 64; 128];
 cost = zeros(7,3); err = zeros(7,3); timeval = zeros(7,3); Pi_final = cell(7,3);
 
 cost_ex = 1/120; xa = 0; xb = 1; ya = 0; yb = 1; % Ex 1
