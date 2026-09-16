@@ -1,5 +1,5 @@
 clear; clc; Nt_list = [2; 4; 8]; N_list = [2; 4; 8; 16];
-cost = zeros(7,3); err = zeros(7,3); timeval = zeros(7,3);
+cost = zeros(4,3); err = zeros(4,3); timeval = zeros(4,3);
 
 cost_ex = 0.013321449188603; xa = 0; xb = 1; % Ex 1
 % cost_ex = 0.015511141991097; xa = -0.5; xb = 0.5; % Ex 2
